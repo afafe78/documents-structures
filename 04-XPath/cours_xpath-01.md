@@ -61,7 +61,7 @@ Le nœud courant désigne le nœud sur lequel on est actuellement. Son évaluati
 Voir [https://stackoverflow.com/questions/1022345/current-node-vs-context-node-in-xslt-xpath/52151497#52151497](https://stackoverflow.com/questions/1022345/current-node-vs-context-node-in-xslt-xpath/52151497#52151497)
 
 ---
-#### Axes verticaux
+#### Axes verticaux
 
 | Nom | Description |
 | --- | --- |

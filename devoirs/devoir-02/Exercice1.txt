@@ -1,0 +1,20 @@
+0. / 
+1. descendant::juicer (ou //juicer)      en se plaçant sur <juicers>
+2. /juicers/juicer
+3. /juicers/juicer/@* (ou /juicers/juicer/@*/name() pour renvoyer le nom des attributs)
+4. //juicer/@*/string()
+5. ./* (position sur juicer)
+6. //juicer[@type = 'gear']
+7. //juicer[1] (ou /juicers/juicer[position()=1]) 
+8. //juicer[last()]
+9. //juicer[4]/warranty
+10. /juicers/juicer[cost < 100]
+11. //juicer[not(image)]
+12. /descendant::juicer[last()]
+13. ancestor::*[last()]
+14. count(//*)
+15. //*[count(child::*) >= 2]
+16. //*[position() = 2]
+17. //name/following-sibling::*[1]/name()
+18.//text()[string-length() > 140]
+19.//juicer[contains(retailer, ".html")]

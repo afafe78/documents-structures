@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <livres>
     <livre isbn="00000" genre="science-fiction">
         <auteur nationalite="zho">
@@ -15,3 +16,20 @@
         <titre>Wuthering Heights</titre>
     </livre>
 </livres>
+=======
+
+<livre isbn="00000" genre="science-fiction">
+    <auteur nationalite="zho">
+        <prenom>Cixin</prenom>
+        <nomDeFamille>Liu</nomDeFamille>
+    </auteur>
+    <titre>The Three-Body problem</titre>
+</livre>
+<livre isbn="00001" genre="tragédie gothique">
+    <auteur nationalite="eng">
+        <prenom>Emily</prenom>
+        <nomDeFamille>Brontë</nomDeFamille>
+    </auteur>
+    <titre>Wuthering Heights</titre>
+</livre>
+>>>>>>> upstream/master

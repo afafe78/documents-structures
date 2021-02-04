@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <livres>
+<<<<<<< HEAD
     <livre isbn="00000" genre="science-fiction">
+=======
+    <livre isbn="00000" :genre="science-fiction">
+>>>>>>> upstream/master
         <auteur nationalite="zho">
             <prenom>Cixin</prenom>
             <nomDeFamille>Liu</nomDeFamille>
         </auteur>
+<<<<<<< HEAD
         <titre>The Three-Body problem</titre>
+=======
+        <TITRE>The Three-Body problem</titre>
+>>>>>>> upstream/master
     </livre>
     <livre isbn="00001" genre="tragédie gothique">
         <auteur nationalite="eng">

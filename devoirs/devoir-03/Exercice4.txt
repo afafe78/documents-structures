@@ -1,0 +1,24 @@
+1. for $nom in /pdv_liste/pdv/*
+    return $nom/name()
+2. for $prixGazole in /pdv_liste/pdv/prix[@nom="Gazole"]/@valeur 
+    return $prixGazole * 2,5 
+3. for $Adresse in /pdv_liste/pdv
+    return concat($Adresse/adresse, " ", $Adresse/ville) 
+4. for $multiples in (1 to 100) 
+    return if ($multiples mod 3 = 0  ) 
+        then $multiples 
+        else ()
+5.for $i in /pdv_liste/pdv 
+    return if (count($i/service)=1 and $i/service="Vente de gaz domestique") 
+        then  $i/@id 
+        else $i/adresse
+6. for $AdresseMaj in /pdv_liste/pdv/adresse
+    return if (contains($AdresseMaj/text(),"Avenue"))
+        then $AdresseMaj/upper-case(text())
+        else ()
+7. /pdv_liste/pdv/adresse union /pdv_liste/pdv/ville
+8. /pdv_liste/pdv[prix/@nom="SP95"] union/pdv_liste/pdv[prix/@nom="SP98"] 
+9.  /pdv_liste/pdv[rupture/@*] intersect /pdv_liste/pdv[(ouverture/@saufjour = "Dimanche")]
+10. /pdv_liste/pdv  except  /pdv_liste/pdv/adresse[contains(/text(), "ROUTE NATIONALE")]
+11. some $i in /pdv_liste/pdv/services/service satisfies contains($i, "Automate CB")
+12. every $DAY in /pdv_liste/pdv satisfies ./ouverture/@saufjour=""

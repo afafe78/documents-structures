@@ -6,12 +6,22 @@
             <nomDeFamille>Liu</nomDeFamille>
         </auteur>
         <titre>The Three-Body problem</titre>
+<<<<<<< HEAD
       </livre>
+=======
+    
+>>>>>>> upstream/master
     <livre isbn="00001" genre="tragédie gothique">
         <auteur nationalite="eng">
             <prenom>Emily</prenom>
             <nomDeFamille>Brontë</nomDeFamille>
         </auteur>
+<<<<<<< HEAD
         <titre>Wuthering Heights</titre>
     </livre>
 </livres>
+=======
+        <titre>Wuthering Heights<titre>
+    </livre>
+</livres>
+>>>>>>> upstream/master

@@ -393,3 +393,53 @@ Nous allons créer un module pour compter le nombre de mots dans un texte.
   <mot frequence ="4">dort</mot>
 </dictionnaire>
 ```
+
+### Exercices
+
+Les exercices se basent sur le fichier `ressources/Rom.xml` . Il s'agit de la pièce `Romeo and Juliet` de William Shakespeare encodé en XML-TEI.
+
+#### Exercice 1
+
+Écrire une requête pour obtenir le titre du document ("Romeo and Juliet") dans une balise `<h1>` . Résultat attendu : `<h1>Romeo and Juliet</h1>`
+
+#### Exercice 2
+
+Lister les langues utilisées dans ce document (voir la balise `<language>`). Résultat attendu :
+
+```
+<ul>
+    <li>en</li>
+    <li>fr</li>
+    ...
+    <li></li>
+</ul>
+```
+
+#### Exercice 3
+
+Reprendre la question précédente et trier le résultat par ordre alphabétique (le contenu des balises `<li>`).
+
+#### Exercice 4
+
+Transformer le contenu de la balise `<author>` ('William Shakespeare') en
+
+```
+<auteur>
+     <nom>Shakespeare</nom>
+     <prenom>William</prenom>
+</auteur>
+```
+
+#### Exercice 5
+
+Écrire une fonction output-word qui passée en paramètre un noeud `w`.
+
+Exemple ligne 1366 :
+`<w xml:id="fs-rom-0008700" n="1.1.39" lemma="take" ana="#vvi">take</w>`), retourne le fragment xml suivant
+
+```
+<mot form="take">
+    <n>1.1.39</n>
+    <lemma val="take">
+</mot>
+```

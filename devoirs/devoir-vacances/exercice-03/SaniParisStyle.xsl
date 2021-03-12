@@ -12,8 +12,9 @@
     
     <xsl:template match="/office:document-content">
         <xsl:for-each select="/office:body/office:spreadsheet/table:table/table:table-row/table:table-cell/text:p">
-            <xsl:if test="text:p=''"></xsl:if>
-            <xsl:text>Non renseigné</xsl:text>
+            <xsl:if test=".=' '">
+                <text:p>Non renseigner</text:p>
+            </xsl:if>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>

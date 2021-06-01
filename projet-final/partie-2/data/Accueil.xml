@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Accueil.xsl"?>
+<devoir>
+    <titre>Document Structurés</titre>
+    <texte>Ce projet à pour but d'évaluer les connaissances que nous avons acquis tout au long du semestre mais aussi de les consolider.</texte>
+    <paragraphe>
+        <titre>Présentation du projet</titre>
+        <texte><!--expliquer le projet et les étapes mises en oeuvres-->
+            L’objectif a été de créer une application web pour présenter des documents qui ont été traduits et alignés. Pour y parvenir, nous avons découpé la tâche en étape.
+        </texte>
+        <puce>La première étape reposer sur la transformation des documents de format HTML vers un format TMX, grâce à une feuille de style XSL. Une DTD était fournie pour valider la structure TMX. Ainsi qu’un fichier TMX d’exemple, qui nous a aider à construire le document attendu en sortie.
+        </puce>
+        <puce>La deuxiéme étape beacoup plus complexes avait pour objectif de réaliser un site web pour présenter les documents transformer dans l'ètape un. Pour ce faire nous avons créer une application sur eXist-db dans laquelle nous avons effectuer trois interfaces.</puce>
+    </paragraphe>
+    <paragraphe>
+        <titre>Navigation sur le site</titre>
+        <texte><!--expliquer l'architecture-->
+            le site est constituer de trois interfaces, la première est la page d'accueil sur laquelle vous vous trouvez actuellement. Elle présente le projet, indique l'architecture du site ainsi que les difficulter que nous avons rencontrées. La seconde interface permet d'effectuer de la recherche plein texte sur les documents. Finalement, la troisième propose un rendu graphique des documents XML qui refléter l’alignement des segments.  
+        </texte>   
+    </paragraphe>
+    <paragraphe>
+        <titre>Difficulter rencontrès</titre>
+        <puce>Lors de la transformation des fichiers HTML vers TMX nous nous sommes rendu compte que le corpus est mal segmenté. Nous avons décidé de ne pas modifier la segmentation par conséquent l’alignement est incorrect.</puce>
+        <puce>Nous avons eu beaucoup de mal à attribuer les même identifiant pour les mots dans les balises « hi ». Nous avons fini par utiliser des expressions régulières pour capturer les mots et leur attribuer le même identifiant.</puce>
+        <puce> le plus compliquer a été pour nous de faire la recherche sur les documents avec Xquery. Nous nous sommes inspirés de l’exercice effectuer en cours pour y parvenir. Malheureusement nous n’avons pas réussi.</puce>      
+    </paragraphe>
+    
+</devoir>

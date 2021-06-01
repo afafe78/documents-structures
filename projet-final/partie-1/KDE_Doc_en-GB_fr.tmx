@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tmx SYSTEM "format-tmx.dtd">
+<tmx version="1.4">
+  <header creationdate="Sat Mar  3 22:44:38 2018" srclang="en_GB" adminlang="en_GB" o-tmf="unknown"
+    segtype="sentence" creationtool="Uplug" creationtoolversion="unknown" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg><hi x="1">Alarm</hi> Daemon</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Démon d' <hi x="1">alarme</hi></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>It will not be available if you have not installed this package.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ce module vous permet de configurer KAlarmd, le démon d'alarme du paquetage
+          kdepim.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>Start alarm daemon automatically at login</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Il n'est pas disponible si vous n'avez pas installé ce paquetage.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>Check this to start the alarm daemon whenever you start a KDE session.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Démarrer le démon d'alarme automatiquement à la connexion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>How long (in minutes) the alarm daemon should wait between checks for alarms coming
+          due.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Cochez ceci pour démarrer le démon d'alarme quand vous démarrez la session KDE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>These settings apply to every application which uses the alarm daemon.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Vérifier l'intervalle [minutes]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>For more information, see their respective handbooks.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Combien de temps (en minutes) le démon d'alarme doit attendre entre deux vérifications
+          des alarmes à venir.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>Lauri Watts lauri@kde.org</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Lauri Watts lauri@kde.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>KDE British Conversion Malcolm Hunter malcolm.hunter@gmx.co.uk</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Traduction française de la documentation par Gérard Delafond gerard@delafond.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>Accessibility</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Accessibilité</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Introduction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>The module is divided into three tabs:</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ce module est conçu pour aider les utilisateurs qui ont des difficultés à entendre, à
+          utiliser un clavier ou une souris.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>Bell, Keyboard, Mouse.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Cloche</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>This panel is divided into an Audible Bell section and a Visible Bell section.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Cet onglet est divisé en une section Cloche auditive et une section Cloche
+          visuelle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>If this option is disabled, the System bell will be silenced.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>La case à cocher du haut intitulée Utiliser la cloche du système détermine si la cloche
+          système sera utilisée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>The next check box down can be used to play a different sound whenever the system bell
+          is triggered.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Si cette option n'est pas activée, la cloche système sera rendue silencieuse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>To activate, place a mark in the check box labelled Use customised bell, and enter the
+          complete pathname to the sound file in the text box labelled Sound to Play.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Pour les utilisateurs qui ne peuvent pas entendre la cloche système, ou pour ceux dont
+          l'ordinateur ne peut émettre de son, KDE propose une cloche visuelle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>If you want, you can select the Browse button to navigate through your filesystem to
+          find the exact file.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Cette cloche peut être configurée pour inverser l'écran, ou pour afficher rapidement
+          une couleur en travers de l'écran.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>For those users who have difficulty hearing the System bell, or those users who have a
+          silent computer, KDE offers the Visible bell.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Vous pouvez alors choisir entre Inverser les couleurs de l'écran et Faire clignoter
+          l'écran.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>This bell can be configured to invert the screen, or to flash a colour across the
+          screen.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Avec Inverser les couleurs de l'écran, toutes les couleurs de l'écran seront
+          inversées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>To use the visible bell, first place a mark in the check box labelled Use visible
+          bell.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Si vous choisissez Faire clignoter l'écran, vous pouvez préciser la couleur à droite de
+          la sélection Faire clignoter l'écran.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en_GB">
+        <seg>You can then select between Invert screen, or Flash screen.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Il y a trois sections dans cet onglet.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

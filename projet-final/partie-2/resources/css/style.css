@@ -1,0 +1,176 @@
+/******** Menu *********/
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #fae46a;
+}
+nav li {
+  list-style-type: none;
+  width: 33.3%;
+  text-align: center;
+}
+nav a {
+  display: block;
+  color: #af2258;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav li:hover a {
+  padding: 15px 30px 20px 30px;
+}
+
+.menu:hover {
+  border-top: 5px solid #e44d26;
+  background-color: rgba(228, 77, 38, 0.15);
+}
+
+/**************************/
+
+/******** Corps *********/
+.corps {
+  padding: 0% 2%;
+  font-size: 20px;
+  font-family: "Segoe UI", Helvetica, tahoma, Arial, sans-serif;
+}
+table {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+td,
+tr {
+  padding: 10px 10px;
+  width: 33%;
+  background-color: white;
+}
+
+#tr,
+td {
+  padding: 10px 10px;
+  width: 13%;
+  background-color: white;
+}
+.solid {
+  border-left-style: solid;
+  border-color: #af2258;
+  border-width: thick;
+}
+
+#searchbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width:70%;
+}
+/**************************/
+
+/*********Formulaire*******/
+form {
+  margin: 0 auto;
+  width: 800px;
+}
+
+input,
+textarea {
+  font: 1em "montserratbold";
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+/**************************/
+/******** Bouton *********/
+.btn-default {
+  background: #fae46a;
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  border-radius: 4px;
+  color: #af2258;
+  font-family: "montserratbold";
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  border-top: 5px solid #e44d26;
+  background-color: rgba(228, 77, 38, 0.15);
+}
+
+.btn-defaultRigth {
+  background: #fae46a;
+  width: auto;
+  display: block;
+  float: right;
+  text-align: center;
+  padding: 14px;
+  border-radius: 4px;
+  color: #af2258;
+  font-family: "montserratbold";
+  margin: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-defaultRigth:hover,
+.btn-defaultRigth:focus,
+.btn-defaultRigth:active,
+.btn-defaultRigth.active,
+.open .dropdown-toggle.btn-defaultRigth {
+  border-top: 5px solid #e44d26;
+  background-color: rgba(228, 77, 38, 0.15);
+}
+/************************/
+/******** Image *********/
+/*image à droite */
+.Right {
+  display: block;
+  float: right;
+  margin: 0 2em 2em 0;
+}
+
+/*image au centre */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*image à gauche */
+.Left {
+  display: block;
+  float: left;
+  margin: 0 2em 2em 0;
+}
+/**************************/
+/******** Footer *********/
+.footer {
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  color: #af2258;
+  background-color: #fae46a;
+}
+/**************************/
+/* Application styles could go here */
+footer .poweredby { float: right; margin: 33px 10px 0 0;}
+footer .poweredby img { width: 120px; }
+/**************************/

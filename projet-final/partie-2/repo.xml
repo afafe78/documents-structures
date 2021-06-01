@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>projet-final</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>projet-final</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+<deployed>2021-05-27T15:26:51.305+02:00</deployed>
+</meta>

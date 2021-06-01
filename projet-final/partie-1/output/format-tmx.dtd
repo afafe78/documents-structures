@@ -1,0 +1,36 @@
+<?xml encoding="UTF-8"?>
+
+<!ENTITY % creation.atts
+"creationdate CDATA #IMPLIED
+ creationtool CDATA #FIXED 'XSLT'
+ creationtoolversion CDATA #FIXED '3.0'
+">
+
+<!ENTITY % tmx-version "'1.4'"> 
+
+<!ELEMENT tmx (header,body)>
+<!ATTLIST tmx
+  version CDATA #FIXED %tmx-version;>
+
+<!ELEMENT header EMPTY>
+<!ATTLIST header
+  adminlang NMTOKEN #FIXED "fr_FR"
+  o-tmf CDATA #FIXED "unknown"
+  %creation.atts;
+  datatype NMTOKEN #FIXED "PlainText"
+  segtype NMTOKEN #FIXED "sentence"
+  srclang NMTOKEN #FIXED "en_EN">
+
+<!ELEMENT body (tu)+>
+
+<!ELEMENT tu (tuv)+>
+
+<!ELEMENT tuv (seg)>
+<!ATTLIST tuv
+  xml:lang NMTOKEN #REQUIRED>
+
+<!ELEMENT seg (#PCDATA|hi)*>
+
+<!ELEMENT hi (#PCDATA)>
+<!ATTLIST hi
+  x CDATA #REQUIRED>
